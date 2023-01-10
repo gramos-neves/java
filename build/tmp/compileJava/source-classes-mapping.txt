@@ -1,0 +1,158 @@
+funcional/ParadigmaFuncional02.java
+ funcional.ParadigmaFuncional02
+teste/TesteDataHora.java
+ teste.TesteDataHora
+teste/testeWrite.java
+ teste.testeWrite
+xpath/xPathParserDemo4.java
+ xpath.xPathParserDemo4
+api/TestApi.java
+ api.TestApi
+comparator/SerieSetMain.java
+ comparator.SerieSetMain
+ comparator.SerieSetMain$1
+teste/teste.java
+ teste.teste
+streams/MinMax.java
+ streams.MinMax
+funcional/Funcoes03.java
+ funcional.Funcoes03
+streams/Utilitarios.java
+ streams.Utilitarios
+funcional/Funcoes.java
+ funcional.Funcoes
+teste/teste2.java
+ teste.teste2
+funcional/FuncionalImparOrPar.java
+ funcional.FuncionalImparOrPar
+funcional/ParadigmaFuncional03.java
+ funcional.FuncÃ£o1
+ funcional.ParadigmaFuncional03
+http/HttpsTeste.java
+ http.HttpsTeste
+ http.HttpsTeste$1
+ http.HttpsTeste$2
+funcional/Recursividade.java
+ funcional.Recursividade
+activedirectory/ActiveDirectory2.java
+ activedirectory.ActiveDirectory2
+streams/Reduce02.java
+ streams.Reduce02
+TesteList.java
+ TesteList
+funcional/Funcoes02.java
+ funcional.Funcoes02
+streams/Produto.java
+ streams.Produto
+streams/Aluno.java
+ streams.Aluno
+streams/Reduce03.java
+ streams.Reduce03
+funcional/Funcoes01.java
+ funcional.Funcoes01
+Price.java
+ Price
+streams/FilterStrem.java
+ streams.FilterStrem
+xml/TesteXml.java
+ xml.TesteXml
+teste/TesteReader.java
+ teste.TesteReader
+funcional/FuncaoReverse.java
+ funcional.FuncaoReverse
+rtf/Teste03.java
+ rtf.Teste03
+fila/Main.java
+ fila.Main
+rtf/TesteRft.java
+ rtf.TesteRft
+colecoes/testeSet.java
+ colecoes.testeSet
+streams/DesafioMap.java
+ streams.DesafioMap
+funcional/ParadigmaFuncional01.java
+ funcional.ParadigmaFuncional01
+fila/Fila.java
+ fila.Fila
+file/Caminho.java
+ file.Caminho
+pilha/Main.java
+ pilha.Main
+xpath/XpathParseDemo.java
+ xpath.XpathParseDemo
+streams/MediaTest.java
+ streams.MediaTest
+fila/No.java
+ fila.No
+pilha/No.java
+ pilha.No
+file/arquivos.java
+ file.arquivos
+http/HttpsTeste2.java
+ http.HttpsTeste2
+ http.HttpsTeste2$1
+ http.HttpsTeste2$2
+streams/Map01.java
+ streams.Map01
+activedirectory/ActiveDirectory.java
+ activedirectory.ActiveDirectory
+TesteStream.java
+ TesteStream
+comparator/Gato.java
+ comparator.ComparatorCor
+ comparator.ComparatorIdade
+ comparator.Gato
+rtf/Teste02.java
+ rtf.Teste02
+comparator/Serie.java
+ comparator.ComparatoNomeGeneroTempoEpisodio
+ comparator.Serie
+funcional/ProdutoMain.java
+ funcional.ProdutoMain
+funcional/desafioBinary.java
+ funcional.desafioBinary
+threads/Threads01.java
+ threads.BarraCarregamento
+ threads.GerarPDF
+ threads.Threads01
+xpath/XpathParseDemo2.java
+ xpath.XpathParseDemo2
+ xpath.XpathParseDemo2$1
+funcional/Produto.java
+ funcional.Produto
+TesteApi.java
+ TesteApi
+streams/FilterProduto.java
+ streams.FilterProduto
+teste/Matriz.java
+ teste.Matriz
+teste/ValidacaoParentes.java
+ teste.ValidacaoParentes
+streams/Reduce01.java
+ streams.Reduce01
+xpath/xPathParserDemo3.java
+ xpath.xPathParserDemo3
+funcional/FuncaoAltOrdem.java
+ funcional.Calcular
+ funcional.FuncaoAltOrdem
+pilha/Pilha.java
+ pilha.Pilha
+colecoes/Cliente.java
+ colecoes.Cliente
+streams/Media.java
+ streams.Media
+comparator/Main.java
+ comparator.Main
+ comparator.Main$1
+file/arquivos2.java
+ file.arquivos2
+colecoes/testeSetTreet.java
+ colecoes.testeSetTreet
+activedirectory/ActiveDirectory3.java
+ activedirectory.ActiveDirectory3
+whats/MultipartUtility.java
+ whats.MultipartUtility
+teste.java
+ teste
+whats/MultipartFileUploader.java
+ whats.MultipartFileUploader
