@@ -13,19 +13,19 @@ public class Teste03 {
 
     public static void main(String[] args) {
         try {
-            String htmlText = rtfToHtml(new StringReader(teste));
-        System.out.println(htmlText);
+           // String htmlText = rtfToHtml(new StringReader(teste));
+            //System.out.println(htmlText);
 
-            String html = convertTextRTF2HTML(teste);
-            System.out.println();
-            System.out.println();
-//            System.out.println(html);
-
+            String html = convertTextRTF2HTML(rtf);
+            String novo=  html.replaceAll("<[^>]*>", "");
+            System.out.println(novo);
+            System.out.println(html);
 
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
 
     }
 
@@ -49,7 +49,7 @@ public class Teste03 {
     }
 
 
-    public static  String convertTextRTF2HTML(String text) {
+    public static  String convertTextRTF2HTML(String text) throws Exception {
         if (text == null) {
             return "";
         }
@@ -67,6 +67,12 @@ public class Teste03 {
         } catch (BadLocationException ex) {
             // logger.error("Erro na conversão de RTF2HTML.", ex);
         }
+
+        HtmlToText htmlToText = new HtmlToText();
+
+         htmlToText.parse(writer.toString());
+          System.out.println(htmlToText.getText());
+
         return writer.toString();
     }
 
@@ -85,6 +91,20 @@ public class Teste03 {
             "{\\colortbl ;\\red0\\green0\\blue0;}\n" +
             "\\par \\pard\\ltrpar\\cf1\\f3\\fs28 \n" +
             "\\par }\n";
+
+  static   String rtf = "{\\rtf1\\ansi\\ansicpg1252\\deff0{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fnil Verdana;}{\\f2\\fnil MS Sans Serif;}}"
+            +"	{\\colortbl ;\\red0\\green0\\blue0;\\red0\\green0\\blue128;} "
+            +"	\\viewkind4\\uc1\\pard\\cf1\\lang1046\\fs20\\tab\\tab\\tab\\tab\\tab\\tab\\tab\\tab\\tab  \\b NUTRI\\'c7\\'c3O\\b0 "
+            +"	\\par  "
+            +"	\\par \\b Prescri\\'e7\\'e3o diet\\'e9tica:\\b0 "
+            +"	\\par  "
+            +"	\\par Dieta enteral polim\\'e9rica hipercal\\'f3rica normoproteica normolip\\'eddica com fibras (1080 ml - 60 ml/h) - \\ul reduzido volume por medidas de conforto\\ulnone "
+            +"	\\par \\'c1gua (2 x  300 ml) "
+            +"	\\par \\pard\\qj\\f1   "
+            +"	\\par \\pard\\f0 In\\'edcio de dieta enteral: 11/02/2020. "
+            +"	\\par Meta nutricional de dieta enteral (recalculada): 60 ml/h (18 horas de infus\\'e3o, 25 kcal/kg, medidas de conforto)\\cf2\\f2\\fs16 "
+            +"	\\par \\pard\\qj\\cf1\\f1\\fs20 "
+            +"	\\par } ";
 
 
 
