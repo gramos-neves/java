@@ -6,7 +6,6 @@ import java.nio.file.Paths;
 
 public class Caminho {
 
-
     public static void main(String[] args) {
 
       //  Path path = Paths.get("C:\\Temp\\94329784-d7a0-46b6-a92d-890792100a87.jpg");
@@ -23,7 +22,6 @@ public class Caminho {
                 + f.getPath());
         System.out.println("Absolute  path: "
                 + absolute);
-
 
 
     }
